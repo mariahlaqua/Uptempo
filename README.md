@@ -1,4 +1,4 @@
-# TBD European Weekend Group Project 
+# European Weekend Group Project 
 ### ~~Working Title TBD~~
 
 Contributors:
