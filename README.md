@@ -5,7 +5,7 @@ Contributors:
 
 - Petya Bedford ([GitHub](https://github.com/bpetya44))
 - Xavi Guasch ([GitHub](https://github.com/xaviguasch)) 
-- Mariah Laqua ([GitHub](https://github.com/mariahlaqua) || [Twitter](https://github.com/MariahLaqua)
+- Mariah Laqua ([GitHub](https://github.com/mariahlaqua) || [Twitter](https://github.com/MariahLaqua))
 - Karl Nielsen ([GitHub](https://github.com/kgni))
 - Sara Vasquez M.([GitHub](https://github.com/svmarinez) || [Twitter](https://twitter.com/VasquezMarinez))
 
@@ -22,7 +22,7 @@ Ideally, we'd like to have this done by the 24th of September.
 
 ## Start this locally!
 
-Create an *.env* file, add a port number as well as a MongoDB connection string.
+Create an *.env* file, add a port number as well as a MongoDB connection string. `npm install` all the dependencies and use `npm start` to start up the project.
 
 
 

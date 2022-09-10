@@ -4,13 +4,13 @@
   "description": "TBD Group Project September 2022",
   "main": "server.js",
   "scripts": {
-    "test": "nodemon server.js"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mariahlaqua/weekend_EUcrew_mvc_auth.git"
   },
-  "author": "Sarai Vasquez M..",
+  "author": ["Mariah Laqua", "Xavi Guasch", "Karl Nielsen", "Sara Vasquez M."],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mariahlaqua/weekend_EUcrew_mvc_auth/issues"
