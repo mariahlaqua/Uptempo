@@ -9,8 +9,11 @@
 <body>
     <h1>Uptempo</h1>
     <h3>Find projects in your area!</h3>
-    
-    <button onClick="/signup">Sign up</button>
-    <button onClick="/login">Login</button>
+
+    <form action="post">
+        <input type="email" name="email" id="email" placeholder="Email address" autocomplete="off">
+        <input type="password" name="password" id="password" placeholder="Password" autocomplete="off">
+        <button type="submit" name="submit" id="submit">Log in</button>
+    </form>
 </body>
 </html>
