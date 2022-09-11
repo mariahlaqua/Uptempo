@@ -1,35 +1,41 @@
 {
-  "name": "weekend_eucrew_mvc_auth",
-  "version": "1.0.0",
-  "description": "TBD Group Project September 2022",
-  "main": "server.js",
-  "scripts": {
-    "start": "nodemon server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mariahlaqua/weekend_EUcrew_mvc_auth.git"
-  },
-  "author": ["Mariah Laqua", "Xavi Guasch", "Karl Nielsen", "Sara Vasquez M."],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mariahlaqua/weekend_EUcrew_mvc_auth/issues"
-  },
-  "homepage": "https://github.com/mariahlaqua/weekend_EUcrew_mvc_auth#readme",
-  "dependencies": {
-    "bcrypt": "^5.0.1",
-    "connect-mongo": "^4.6.0",
-    "dotenv": "^16.0.2",
-    "ejs": "^3.1.8",
-    "express": "^4.18.1",
-    "express-flash": "^0.0.2",
-    "express-session": "^1.17.3",
-    "mongodb": "^4.9.1",
-    "mongoose": "^6.5.5",
-    "morgan": "^1.10.0",
-    "nodemon": "^2.0.19",
-    "passport": "^0.6.0",
-    "passport-local": "^1.0.0",
-    "validator": "^13.7.0"
-  }
+	"name": "weekend_eucrew_mvc_auth",
+	"version": "1.0.0",
+	"description": "TBD Group Project September 2022",
+	"main": "server.js",
+	"scripts": {
+		"start": "nodemon server.js",
+		"dev": "nodemon server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mariahlaqua/weekend_EUcrew_mvc_auth.git"
+	},
+	"author": [
+		"Mariah Laqua",
+		"Xavi Guasch",
+		"Karl Nielsen",
+		"Sara Vasquez M."
+	],
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/mariahlaqua/weekend_EUcrew_mvc_auth/issues"
+	},
+	"homepage": "https://github.com/mariahlaqua/weekend_EUcrew_mvc_auth#readme",
+	"dependencies": {
+		"bcrypt": "^5.0.1",
+		"connect-mongo": "^4.6.0",
+		"dotenv": "^16.0.2",
+		"ejs": "^3.1.8",
+		"express": "^4.18.1",
+		"express-flash": "^0.0.2",
+		"express-session": "^1.17.3",
+		"mongodb": "^4.9.1",
+		"mongoose": "^6.5.5",
+		"morgan": "^1.10.0",
+		"nodemon": "^2.0.19",
+		"passport": "^0.6.0",
+		"passport-local": "^1.0.0",
+		"validator": "^13.7.0"
+	}
 }
