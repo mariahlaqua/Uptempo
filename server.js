@@ -15,6 +15,9 @@ const postsRoutes = require('./routes/post');
 // dotenv config
 require('dotenv').config({ path: './config/.env' });
 
+// Passport config
+require('./config/passport')(passport);
+
 connectDB();
 
 app.set('view engine', 'ejs');

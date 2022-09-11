@@ -3,6 +3,9 @@ const validator = require('validator');
 const User = require('../models/User');
 
 exports.getLogin = (req, res) => {
+	if (req.user) {
+		return res.redirect('/dashboard');
+	}
 	res.render('login', {
 		title: 'Login',
 	});
@@ -36,7 +39,7 @@ exports.postLogin = (req, res, next) => {
 				return next(err);
 			}
 			req.flash('success', { msg: 'Success! You are logged in.' });
-			res.redirect(req.session.returnTo || '/todos');
+			res.redirect(req.session.returnTo || '/');
 		});
 	})(req, res, next);
 };
