@@ -10,6 +10,7 @@ const morgan = require('morgan');
 
 // routes
 const mainRoutes = require('./routes/main');
+const postsRoutes = require('./routes/post');
 
 // dotenv config
 require('dotenv').config({ path: './config/.env' });
@@ -40,6 +41,7 @@ app.use(passport.session());
 app.use(flash());
 
 app.use('/', mainRoutes);
+// app.use('/posts', postsRoutes);
 
 app.listen(process.env.PORT, () => {
 	console.log(`Server is running on port ${process.env.PORT}`);
