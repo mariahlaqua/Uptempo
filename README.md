@@ -1,5 +1,5 @@
 # European Weekend Group Project 
-### ~~Working Title TBD~~
+### Uptempo
 
 Contributors:
 
